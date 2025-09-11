@@ -45,83 +45,46 @@ We also feature some well-known technical reports on Large Language Models (LLMs
 * [2501] [Kimi k1.5: Scaling Reinforcement Learning with LLMs](Kimi Team) [Technical Report](https://arxiv.org/pdf/2501.12599)
 
 ### 📌 2.Generated Data Guided Post-Training 
-| Title                                                                                                                                                                                                                                                                        |    Date    |                                                  Code/Huggingface                                                  | Taxonomy |
+| Title |    Date    |                                                  Code/Huggingface                                                  | Taxonomy |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------------------------------------: | -------- |
-| ![Star](https://img.shields.io/github/stars/multimodal-reasoning-lab/Bagel-Zebra-CoT.svg?style=social&label=Star)<br>[**Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning**](https://arxiv.org/abs/2507.16746)                                                                    | 2025.07 |              [Github](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT) [Huggingface](https://huggingface.co/datasets/multimodal-reasoning-lab/Zebra-CoT)              |     SFT     |
-| ![Star](https://img.shields.io/github/stars/Leo-ssl/RAP.svg?style=social&label=Star)<br>[**Truth in the Few: High-Value Data Selection for Efficient Multi-Modal Reasoning**](https://arxiv.org/pdf/2506.04755)                                                                    | 2025.06 |              [Github](https://github.com/Leo-ssl/RAP)              |     RL     |
-| ![Star](https://img.shields.io/github/stars/ModalMinds/MM-EUREKA.svg?style=social&label=Star)<br>[**MM-EUREKA: EXPLORING THE FRONTIERS OF MULTIMODAL REASONING WITH RULE-BASED REINFORCEMENT LEARNING**](https://arxiv.org/pdf/2503.07365)                                                                    | 2025.03 |             [Github](https://github.com/ModalMinds/MM-EUREKA) [Huggingface](https://huggingface.co/datasets/FanqingM/MMK12)              |     RL     |
-| ![Star](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision.svg?style=social&label=Star)<br>[**R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization**](https://arxiv.org/abs/2503.10615)                                                                    | 2025.03 |              [Github](https://github.com/Fancy-MLLM/R1-Onevision) [Huggingface](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision)             |     RL     |
-| ![Star](https://img.shields.io/github/stars/RifleZhang/LLaVA-Reasoner-DPO.svg?style=social&label=Star)<br>[**Improve Vision Language Model Chain-of-thought Reasoning**](https://arxiv.org/pdf/2410.16198)                                                                    | 2024.10 |              [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)  [Huggingface](https://huggingface.co/datasets/Share4oReasoning/sft_data)             |     SFT & RL     |
-
-
-* [2506][Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing] (CASIA) [Paper](https://arxiv.org/pdf/2506.09965)
-
-* [2506][SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis] (NUS) [Paper](https://arxiv.org/pdf/2506.02096)
-
-* [2505][Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL] (BIT) [Paper](https://arxiv.org/pdf/2505.15436)
-
-* [2505][GRIT: Teaching MLLMs to Think with Images] (UC Santa Cruz) [Paper](https://arxiv.org/pdf/2505.15879)
-
-* [2505][DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning] (Xiaohongshu Inc.) [Paper](https://arxiv.org/pdf/2505.14362)
-
-* [2504][SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement] (University of Maryland) [Paper](https://arxiv.org/pdf/2504.07934)
-
-* [2503][Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning] (PKU) [Paper](https://arxiv.org/abs/2503.20752)
-
-* [2503] [R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization] (NTU) [Paper](https://arxiv.org/pdf/2503.12937)
-
-* [2503] [R1-Zero’s “Aha Moment” in Visual Reasoning on a 2B Non-SFT Model] (UCLA) [Paper](https://arxiv.org/pdf/2503.05132) [Blog](https://turningpointai.notion.site/the-multimodal-aha-moment-on-2b-model) [Code](https://github.com/turningpoint-ai/VisualThinker-R1-Zero)
-  
-* [2503] [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models] (East China Normal University) [Paper](https://arxiv.org/pdf/2503.06749)
-  
-* [2503] [MM-EUREKA: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning] [Paper](https://arxiv.org/pdf/2503.07365) [Code](https://github.com/ModalMinds/MM-EUREKA)
-  
-* [2503] [Visual-RFT: Visual Reinforcement Fine-Tuning] (Shanghai AI Lab) [Paper](https://arxiv.org/abs/2503.01785) [Code](https://github.com/Liuziyu77/Visual-RFT)
-  
-* [2503] [Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks] (ZJU) [Paper](https://arxiv.org/abs/2503.21696) [Code](https://github.com/zwq2018/embodied_reasoner)
-  
-* [2502] [OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference] (Shanghai AI Lab) [Paper](https://arxiv.org/pdf/2502.18411) [Code](https://github.com/PhoenixZ810/OmniAlign-V)
-  
-* [2502] [MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification] (PKU) [Paper](https://arxiv.org/pdf/2502.13383) [Code](https://github.com/Aurora-slz/MM-Verify)
-  
-* [2502] [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment] (Kuaishou) [Paper](https://arxiv.org/pdf/2502.10391) [Code](https://github.com/Kwai-YuanQi/MM-RLHF)
-  
-* [2501] [Can We Generate Images with CoT? Let’s Verify and Reinforce Image Generation Step by Step] (CUHK) [Paper](https://arxiv.org/pdf/2501.13926) [Code](https://github.com/ZiyuGuo99/Image-Generation-CoT)
-  
-* [2501] [URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics] (ByteDance) [Paper](https://arxiv.org/pdf/2501.04686)
-  
-* [2501] [LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs] (Mohamed bin Zayed University of AI) [Paper](https://arxiv.org/pdf/2501.06186)
-  
-* [2501] [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought] (Microsoft Research) [Paper](https://arxiv.org/pdf/2501.07542)
-  
-* [2501] [Technical Report on Slow Thinking with LLMs: Visual Reasoning] (Renmin University of China) [Paper](https://arxiv.org/pdf/2501.01904)
-  
-* [2412] [MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale] (CMU) [Paper](https://arxiv.org/pdf/2412.05237)
-  
-* [2412] [Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension] (University of Maryland) [Paper](https://arxiv.org/pdf/2412.03704)
-  
-* [2412] [TACO: Learning Multi-modal Action Models with Synthetic Chains-of-Thought-and-Action] (University of Washington) [Paper](https://arxiv.org/pdf/2412.05479)
-  
-* [2412] [Diving into Self-Evolving Training for Multimodal Reasoning] (HKUST) [Paper](https://arxiv.org/pdf/2412.17451)
-  
-* [2412] [Progressive Multimodal Reasoning via Active Retrieval] (Renmin University of China) [Paper](https://arxiv.org/pdf/2412.14835)
-  
-* [2411] [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization] (Shanghai AI Lab) [Paper](https://arxiv.org/pdf/2411.10442)
-  
-* [2411] [Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning] (FDU) [Paper](https://arxiv.org/pdf/2411.18203)
-  
-* [2411] [Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models] (NTU) [Paper](https://arxiv.org/pdf/2411.14432)
-  
-* [2411] [AtomThink: A Slow Thinking Framework for Multimodal Mathematical Reasoning] (Sun Yat-sen University) [Paper](https://arxiv.org/pdf/2411.11930)
-  
-* [2411] [LLaVA-o1: Let Vision Language Models Reason Step-by-Step] (PKU) [Paper](https://arxiv.org/pdf/2411.10440v1)
-  
-* [2411] [Vision-Language Models Can Self-Improve Reasoning via Reflection] (NJU) [Paper](https://arxiv.org/pdf/2411.00855)
-  
-* [2403] [Visual CoT: Unleashing Chain-of-Thought Reasoning in Multi-Modal Language Models] (CUHK) [Paper](https://arxiv.org/pdf/2403.16999)
-  
-* [2306] [Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic] (SenseTime) [Paper](https://arxiv.org/pdf/2306.15195) 
-
+| ![Star](https://img.shields.io/github/stars/multimodal-reasoning-lab/Bagel-Zebra-CoT.svg?style=social&label=Star)<br>[**Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning**](https://arxiv.org/abs/2507.16746) | 2025.07 | [Github](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT) [Huggingface](https://huggingface.co/datasets/multimodal-reasoning-lab/Zebra-CoT) | SFT |
+| <!-- Star --><br>[**Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing**](https://arxiv.org/pdf/2506.09965) | 2025.06 | [Paper](https://arxiv.org/pdf/2506.09965) | RL |
+| <!-- Star --><br>[**SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis**](https://arxiv.org/pdf/2506.02096) | 2025.06 | [Paper](https://arxiv.org/pdf/2506.02096) | RL |
+| ![Star](https://img.shields.io/github/stars/Leo-ssl/RAP.svg?style=social&label=Star)<br>[**Truth in the Few: High-Value Data Selection for Efficient Multi-Modal Reasoning**](https://arxiv.org/pdf/2506.04755) | 2025.06 | [Github](https://github.com/Leo-ssl/RAP) | RL |
+| <!-- Star --><br>[**GRIT: Teaching MLLMs to Think with Images**](https://arxiv.org/pdf/2505.15879) | 2025.05 | [Paper](https://arxiv.org/pdf/2505.15879) | SFT |
+| <!-- Star --><br>[**DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning**](https://arxiv.org/pdf/2505.14362) | 2025.05 | [Paper](https://arxiv.org/pdf/2505.14362) | RL |
+| <!-- Star --><br>[**Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL**](https://arxiv.org/pdf/2505.15436) | 2025.05 | [Paper](https://arxiv.org/pdf/2505.15436) | RL |
+| <!-- Star --><br>[**SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement**](https://arxiv.org/pdf/2504.07934) | 2025.04 | [Paper](https://arxiv.org/pdf/2504.07934) | RL |
+| ![Star](https://img.shields.io/github/stars/zwq2018/embodied_reasoner.svg?style=social&label=Star)<br>[**Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks**](https://arxiv.org/abs/2503.21696) | 2025.03 | [Paper](https://arxiv.org/abs/2503.21696) [Code](https://github.com/zwq2018/embodied_reasoner) | RL |
+| <!-- Star --><br>[**Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning**](https://arxiv.org/abs/2503.20752) | 2025.03 | [Paper](https://arxiv.org/abs/2503.20752) | RL |
+| <!-- Star --><br>[**R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization**](https://arxiv.org/pdf/2503.12937) | 2025.03 | [Paper](https://arxiv.org/pdf/2503.12937) | RL |
+| ![Star](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision.svg?style=social&label=Star)<br>[**R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization**](https://arxiv.org/abs/2503.10615) | 2025.03 | [Github](https://github.com/Fancy-MLLM/R1-Onevision) [Huggingface](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) | RL |
+| ![Star](https://img.shields.io/github/stars/ModalMinds/MM-EUREKA.svg?style=social&label=Star)<br>[**MM-EUREKA: Exploring the Frontiers of Multimodal Reasoning with Rule-Based Reinforcement Learning**](https://arxiv.org/pdf/2503.07365) | 2025.03 | [Github](https://github.com/ModalMinds/MM-EUREKA) [Huggingface](https://huggingface.co/datasets/FanqingM/MMK12) | RL |
+| <!-- Star --><br>[**Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models**](https://arxiv.org/pdf/2503.06749) | 2025.03 | [Paper](https://arxiv.org/pdf/2503.06749) | RL |
+| ![Star](https://img.shields.io/github/stars/turningpoint-ai/VisualThinker-R1-Zero.svg?style=social&label=Star)<br>[**R1-Zero’s “Aha Moment” in Visual Reasoning on a 2B Non-SFT Model**](https://arxiv.org/pdf/2503.05132) | 2025.03 | [Paper](https://arxiv.org/pdf/2503.05132) [Blog](https://turningpointai.notion.site/the-multimodal-aha-moment-on-2b-model) [Code](https://github.com/turningpoint-ai/VisualThinker-R1-Zero) | RL |
+| ![Star](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT.svg?style=social&label=Star)<br>[**Visual-RFT: Visual Reinforcement Fine-Tuning**](https://arxiv.org/abs/2503.01785) | 2025.03 | [Paper](https://arxiv.org/abs/2503.01785) [Code](https://github.com/Liuziyu77/Visual-RFT) | RL |
+| ![Star](https://img.shields.io/github/stars/PhoenixZ810/OmniAlign-V.svg?style=social&label=Star)<br>[**OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference**](https://arxiv.org/pdf/2502.18411) | 2025.02 | [Paper](https://arxiv.org/pdf/2502.18411) [Code](https://github.com/PhoenixZ810/OmniAlign-V) | RLHF |
+| ![Star](https://img.shields.io/github/stars/Aurora-slz/MM-Verify.svg?style=social&label=Star)<br>[**MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification**](https://arxiv.org/pdf/2502.13383) | 2025.02 | [Paper](https://arxiv.org/pdf/2502.13383) [Code](https://github.com/Aurora-slz/MM-Verify) | RL |
+| ![Star](https://img.shields.io/github/stars/Kwai-YuanQi/MM-RLHF.svg?style=social&label=Star)<br>[**MM-RLHF: The Next Step Forward in Multimodal LLM Alignment**](https://arxiv.org/pdf/2502.10391) | 2025.02 | [Paper](https://arxiv.org/pdf/2502.10391) [Code](https://github.com/Kwai-YuanQi/MM-RLHF) | RLHF |
+| <!-- Star --><br>[**Can We Generate Images with CoT? Let’s Verify and Reinforce Image Generation Step by Step**](https://arxiv.org/pdf/2501.13926) | 2025.01 | [Paper](https://arxiv.org/pdf/2501.13926) [Code](https://github.com/ZiyuGuo99/Image-Generation-CoT) | RL |
+| <!-- Star --><br>[**Imagine while Reasoning in Space: Multimodal Visualization-of-Thought**](https://arxiv.org/pdf/2501.07542) | 2025.01 | [Paper](https://arxiv.org/pdf/2501.07542) | RL |
+| <!-- Star --><br>[**LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs**](https://arxiv.org/pdf/2501.06186) | 2025.01 | [Paper](https://arxiv.org/pdf/2501.06186) | RL |
+| <!-- Star --><br>[**URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics**](https://arxiv.org/pdf/2501.04686) | 2025.01 | [Paper](https://arxiv.org/pdf/2501.04686) | RL |
+| <!-- Star --><br>[**Technical Report on Slow Thinking with LLMs: Visual Reasoning**](https://arxiv.org/pdf/2501.01904) | 2025.01 | [Paper](https://arxiv.org/pdf/2501.01904) | RL |
+| <!-- Star --><br>[**Progressive Multimodal Reasoning via Active Retrieval**](https://arxiv.org/pdf/2412.14835) | 2024.12 | [Paper](https://arxiv.org/pdf/2412.14835) | RL |
+| <!-- Star --><br>[**Diving into Self-Evolving Training for Multimodal Reasoning**](https://arxiv.org/pdf/2412.17451) | 2024.12 | [Paper](https://arxiv.org/pdf/2412.17451) | RL |
+| <!-- Star --><br>[**TACO: Learning Multi-modal Action Models with Synthetic Chains-of-Thought-and-Action**](https://arxiv.org/pdf/2412.05479) | 2024.12 | [Paper](https://arxiv.org/pdf/2412.05479) | RL |
+| <!-- Star --><br>[**Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension**](https://arxiv.org/pdf/2412.03704) | 2024.12 | [Paper](https://arxiv.org/pdf/2412.03704) | RL |
+| <!-- Star --><br>[**MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale**](https://arxiv.org/pdf/2412.05237) | 2024.12 | [Paper](https://arxiv.org/pdf/2412.05237) | SFT |
+| <!-- Star --><br>[**Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization**](https://arxiv.org/pdf/2411.10442) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.10442) | RLHF |
+| <!-- Star --><br>[**Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning**](https://arxiv.org/pdf/2411.18203) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.18203) | RL |
+| <!-- Star --><br>[**Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models**](https://arxiv.org/pdf/2411.14432) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.14432) | RL |
+| <!-- Star --><br>[**AtomThink: A Slow Thinking Framework for Multimodal Mathematical Reasoning**](https://arxiv.org/pdf/2411.11930) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.11930) | RL |
+| <!-- Star --><br>[**LLaVA-o1: Let Vision Language Models Reason Step-by-Step**](https://arxiv.org/pdf/2411.10440v1) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.10440v1) | SFT |
+| <!-- Star --><br>[**Vision-Language Models Can Self-Improve Reasoning via Reflection**](https://arxiv.org/pdf/2411.00855) | 2024.11 | [Paper](https://arxiv.org/pdf/2411.00855) | RL |
+| ![Star](https://img.shields.io/github/stars/RifleZhang/LLaVA-Reasoner-DPO.svg?style=social&label=Star)<br>[**Improve Vision Language Model Chain-of-thought Reasoning**](https://arxiv.org/pdf/2410.16198) | 2024.10 | [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO) [Huggingface](https://huggingface.co/datasets/Share4oReasoning/sft_data) | SFT & RL |
+| <!-- Star --><br>[**Visual CoT: Unleashing Chain-of-Thought Reasoning in Multi-Modal Language Models**](https://arxiv.org/pdf/2403.16999) | 2024.03 | [Paper](https://arxiv.org/pdf/2403.16999) | SFT |
+| <!-- Star --><br>[**Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic**](https://arxiv.org/pdf/2306.15195) | 2023.06 | [Paper](https://arxiv.org/pdf/2306.15195) | SFT |
 [⬆️ Back to Top](#-table-of-contents)
 
 ### 🚀 3.Test-time Scaling
@@ -177,15 +140,6 @@ This kind of method aims to use small models(tool or visual expert) or multiple 
 [⬆️ Back to Top](#-table-of-contents)
 
 ### 📊 6.Benchmarks
-Some benchmarks can be supported by [VLMEvalKit](https://github.com/open-compass/VLMEvalKit):
-| Category   | Datasets                                                                 |
-|------------|---------------------------------------------------------------------------|
-| **Math**   | MathVista, MathVerse, MathVision, OlympiadBench                          |
-| **Physics**| Physics                                                                   |
-| **General**| MMMU, ScienceQA_Img                                                       |
-| **Diagram**| AI2D, Diagram QA                                                          |
-
-
 Benchmark Papers:
 
 * [2503] [CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation] (CMU) [Paper](https://arxiv.org/pdf/2504.00043)
