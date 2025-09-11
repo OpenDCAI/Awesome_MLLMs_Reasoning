@@ -69,6 +69,8 @@ We also feature some well-known technical reports on Large Language Models (LLMs
   
 * [2503] [Visual-RFT: Visual Reinforcement Fine-Tuning] (Shanghai AI Lab) [Paper](https://arxiv.org/abs/2503.01785) [Code](https://github.com/Liuziyu77/Visual-RFT)
   
+* [2503] [Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks] (ZJU) [Paper](https://arxiv.org/abs/2503.21696) [Code](https://github.com/zwq2018/embodied_reasoner)
+  
 * [2502] [OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference] (Shanghai AI Lab) [Paper](https://arxiv.org/pdf/2502.18411) [Code](https://github.com/PhoenixZ810/OmniAlign-V)
   
 * [2502] [MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification] (PKU) [Paper](https://arxiv.org/pdf/2502.13383) [Code](https://github.com/Aurora-slz/MM-Verify)
