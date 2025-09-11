@@ -44,7 +44,16 @@ We also feature some well-known technical reports on Large Language Models (LLMs
 
 * [2501] [Kimi k1.5: Scaling Reinforcement Learning with LLMs](Kimi Team) [Technical Report](https://arxiv.org/pdf/2501.12599)
 
-### 📌 2.Generated Data Guided Post-Training  
+### 📌 2.Generated Data Guided Post-Training 
+| Title                                                                                                                                                                                                                                                                        |    Date    |                                                  Code/Huggingface                                                  | Taxonomy |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------------------------------------: | -------- |
+| ![Star](https://img.shields.io/github/stars/multimodal-reasoning-lab/Bagel-Zebra-CoT.svg?style=social&label=Star)<br>[**Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning**](https://arxiv.org/abs/2507.16746)                                                                    | 2025.07 |              [Github](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT) [Huggingface](https://huggingface.co/datasets/multimodal-reasoning-lab/Zebra-CoT)              |     SFT     |
+| ![Star](https://img.shields.io/github/stars/Leo-ssl/RAP.svg?style=social&label=Star)<br>[**Truth in the Few: High-Value Data Selection for Efficient Multi-Modal Reasoning**](https://arxiv.org/pdf/2506.04755)                                                                    | 2025.06 |              [Github](https://github.com/Leo-ssl/RAP)              |     RL     |
+| ![Star](https://img.shields.io/github/stars/ModalMinds/MM-EUREKA.svg?style=social&label=Star)<br>[**MM-EUREKA: EXPLORING THE FRONTIERS OF MULTIMODAL REASONING WITH RULE-BASED REINFORCEMENT LEARNING**](https://arxiv.org/pdf/2503.07365)                                                                    | 2025.03 |             [Github](https://github.com/ModalMinds/MM-EUREKA) [Huggingface](https://huggingface.co/datasets/FanqingM/MMK12)              |     RL     |
+| ![Star](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision.svg?style=social&label=Star)<br>[**R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization**](https://arxiv.org/abs/2503.10615)                                                                    | 2025.03 |              [Github](https://github.com/Fancy-MLLM/R1-Onevision) [Huggingface](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision)             |     RL     |
+| ![Star](https://img.shields.io/github/stars/RifleZhang/LLaVA-Reasoner-DPO.svg?style=social&label=Star)<br>[**Improve Vision Language Model Chain-of-thought Reasoning**](https://arxiv.org/pdf/2410.16198)                                                                    | 2024.10 |              [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)  [Huggingface](https://huggingface.co/datasets/Share4oReasoning/sft_data)             |     SFT & RL     |
+
+
 * [2506][Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing] (CASIA) [Paper](https://arxiv.org/pdf/2506.09965)
 
 * [2506][SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis] (NUS) [Paper](https://arxiv.org/pdf/2506.02096)
@@ -168,6 +177,17 @@ This kind of method aims to use small models(tool or visual expert) or multiple 
 [⬆️ Back to Top](#-table-of-contents)
 
 ### 📊 6.Benchmarks
+Some benchmarks can be supported by [VLMEvalKit](https://github.com/open-compass/VLMEvalKit):
+| Category   | Datasets                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Math**   | MathVista, MathVerse, MathVision, OlympiadBench                          |
+| **Physics**| Physics                                                                   |
+| **General**| MMMU, ScienceQA_Img                                                       |
+| **Diagram**| AI2D, Diagram QA                                                          |
+
+
+Benchmark Papers:
+
 * [2503] [CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation] (CMU) [Paper](https://arxiv.org/pdf/2504.00043)
 
 * [2503] [reWordBench: Benchmarking and Improving the Robustness of Reward Models with Transformed Inputs] (Meta) [Paper](https://arxiv.org/pdf/2503.11751)
