@@ -143,6 +143,8 @@ This kind of method aims to use small models(tool or visual expert) or multiple 
 ### 📊 6.Benchmarks
 Benchmark Papers:
 
+* [2607] [Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text] (ZJU) [Paper](https://arxiv.org/abs/2607.21072) [Code](https://github.com/ZJU-OmniAI/ProVisE)
+
 * [2503] [CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation] (CMU) [Paper](https://arxiv.org/pdf/2504.00043)
 
 * [2503] [reWordBench: Benchmarking and Improving the Robustness of Reward Models with Transformed Inputs] (Meta) [Paper](https://arxiv.org/pdf/2503.11751)
